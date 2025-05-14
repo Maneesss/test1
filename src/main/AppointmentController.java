@@ -1,15 +1,16 @@
-
     private static class EnhancedAppointment {
         private Appointment appointment;
         private User client;
         private Agent agent;
         private Property property;
+        
 
         // Getters and Setters
         public Appointment getAppointment() {
             return appointment;
         }
 
+        
         public void setAppointment(Appointment appointment) {
             this.appointment = appointment;
         }
@@ -38,7 +39,4 @@
             this.property = property;
         }
     }
-
-
-
 
